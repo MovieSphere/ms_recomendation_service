@@ -1,11 +1,9 @@
 module.exports = {
   testEnvironment: 'node',
-  transform: {
-    '^.+\\.js$': 'babel-jest'
-  },
-  moduleFileExtensions: ['js'],
+  verbose: true,
   testMatch: ['**/tests/**/*.test.js'],
-  transformIgnorePatterns: [
-    '/node_modules/'
+  // Asegúrate de ignorar otros servicios
+  modulePathIgnorePatterns: [
+    '<rootDir>/ms_catalog_search_service'
   ]
 };

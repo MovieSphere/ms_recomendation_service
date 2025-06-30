@@ -1,5 +1,5 @@
 {
-  "name": "ms_catalog_search_service",
+  "name": "ms_recomendation_service",
   "version": "1.0.0",
   "scripts": {
     "test": "jest --config jest.config.js",
