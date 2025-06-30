@@ -35,3 +35,16 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Archivos generados
+logs/*.log
+
+# Dependencias
+node_modules/
+
+# Configuración local
+.env
+
+# Archivos de IDE
+.vscode/
+.idea/
